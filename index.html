@@ -63,8 +63,9 @@
     }
     function processBarcode(bc){
         console.log(bc);
+        alert(bc);
         document.getElementById("scans").innerHTML += "<div>" + bc + "</div>";
-        document.getElementById("barcode").text = bc;
+        document.getElementById("barcode").innerTEXT = bc;
         //put your code in place of the line above.
     }
 </SCRIPT>
